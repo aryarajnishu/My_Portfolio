@@ -18,7 +18,7 @@ const projects = [
       "Personal portfolio showcasing development skills and projects, built with React, TailwindCSS, and lucide-react icons.",
     image: "/projects/project5.png",
     tags: ["React", "TailwindCSS", "Lucide-React", "react-toast"],
-    demoUrl: "#",
+    demoUrl: "https://my-portfolio-seven-iota-77.vercel.app/",
     githubUrl: "https://github.com/aryarajnishu/My_Portfolio.git",
   },
   {
