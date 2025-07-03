@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { cn } from "@/lib/utils";
+import { ArrowRight } from "lucide-react";
 
 const skills = [
   // Frontend
@@ -22,9 +23,14 @@ const skills = [
   // { name: "Docker", level: 70, category: "tools" },
   // { name: "Figma", level: 85, category: "tools" },
   { name: "VS Code", level: 95, category: "tools" },
+
+  { name: "C++", level: 95, category: "programming" },
+  { name: "C", level: 80, category: "programming" },
+  { name: "Python", level: 75, category: "programming" },
+
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all", "frontend", "backend", "programming" , "tools"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
@@ -81,6 +87,27 @@ export const SkillsSection = () => {
           ))}
         </div>
       </div>
+
+      <div className="flex flex-col md:flex-row justify-center items-center gap-20 mt-12">
+        <a
+          className="cosmic-button w-fit flex items-center gap-2"
+          target="_blank"
+          href="https://leetcode.com/u/coder_life_18237912/"
+        >
+          LeetCode Profile<ArrowRight size={16} />
+        </a>
+
+        <a
+          className="cosmic-button w-fit flex items-center gap-2"
+          target="_blank"
+          href="https://www.codechef.com/users/coderlifearya"
+        >
+          CodeChef Profile<ArrowRight size={16} />
+        </a>
+      </div>
+
+
+
     </section>
   );
 };
