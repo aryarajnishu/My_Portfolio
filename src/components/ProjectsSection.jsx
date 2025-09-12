@@ -7,12 +7,31 @@ const projects = [
     description:
       "A fully functional Uber clone using the MERN stack, featuring real-time ride tracking, route optimization, and secure authentication.",
     image: "/projects/project1.png",
-    tags: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Google Maps API"],
-    demoUrl: "#",
+    tags: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Google Maps API",
+    ],
+    // demoUrl: "#",
     githubUrl: "https://github.com/aryarajnishu/UBERCLONE",
   },
+
   {
     id: 2,
+    title: "AI Code Review & Bug Fixing Platform",
+    description:
+      "AI-powered code review app using React, Tailwind, and Gemini API for error detection and fixes. Provides real-time suggestions with a modern, responsive UI.",
+    image: "/projects/project7.png",
+    tags: ["React.js", "Tailwind CSS", "Gemini API", "AI", "Code Review"],
+    demoUrl: "https://codeify-rho.vercel.app/",
+    githubUrl: "https://github.com/aryarajnishu/Codeify",
+  },
+
+  {
+    id: 4,
     title: "Portfolio Website",
     description:
       "Personal portfolio showcasing development skills and projects, built with React, TailwindCSS, and lucide-react icons.",
@@ -28,28 +47,28 @@ const projects = [
       "Task management platform allowing admins to assign tasks with deadlines and employees to update task status in real-time.",
     image: "/projects/project2.png",
     tags: ["React", "JavaScript", "Context API", "Local Storage"],
-    demoUrl: "#",
+    demoUrl: "https://employee-management-system-gold-three.vercel.app/",
     githubUrl: "https://github.com/aryarajnishu/Employee-Management-System",
   },
   {
-  id: 4,
-  title: "BMI Calculator",
-  description:
-    "A sleek and responsive Body Mass Index (BMI) calculator built using React and TailwindCSS, allowing users to input height and weight to calculate BMI instantly.",
-  image: "/projects/project4.png",
-  tags: ["React", "TailwindCSS", "HTML", "API"],
-  demoUrl: "#",
-  githubUrl: "https://github.com/aryarajnishu/BMI-calculator",
+    id: 5,
+    title: "BMI Calculator",
+    description:
+      "A sleek and responsive Body Mass Index (BMI) calculator built using React and TailwindCSS, allowing users to input height and weight to calculate BMI instantly.",
+    image: "/projects/project4.png",
+    tags: ["React", "TailwindCSS", "HTML", "API"],
+    // demoUrl: "#",
+    githubUrl: "https://github.com/aryarajnishu/BMI-calculator",
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Amazon Landing Page Clone",
     description:
       "A static clone of the Amazon India landing page created using HTML, CSS, and JavaScript, replicating the design and layout.",
     image: "/projects/project3.png",
     tags: ["HTML", "CSS", "JavaScript"],
-    demoUrl: "#",
+    // demoUrl: "#",
     githubUrl: "https://github.com/aryarajnishu/Amazon-Clone",
   },
 ];
