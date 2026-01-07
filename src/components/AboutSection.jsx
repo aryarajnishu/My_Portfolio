@@ -32,7 +32,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="https://drive.google.com/file/d/1PGV8fRnK8UBy11L1VKskp9m_5ZX_588p/view?usp=sharing"
+                href="https://drive.google.com/file/d/1aB_y48CL6Yc7U2VjIEWLpX4qo6AwkxpZ/view?usp=sharing"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 See My CV
